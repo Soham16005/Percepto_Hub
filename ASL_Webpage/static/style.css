@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #8a6443; /* Dark background */
+    color: #ffffff;
+}
+
+h1 {
+    color: #620000;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #a908ff;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #faead0; /* Light container for contrast */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+#video-stream {
+    border: 5px solid #ffcc00; /* Yellow border */
+    border-radius: 10px;
+    width: 1000px; /* আগের 640px থেকে বড় */
+    height: 800px; /* আগের 480px থেকে বড় */
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+
+#prediction {
+    font-weight: bold;
+    color: #0aeb21;
+    font-size: 3.5rem;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
