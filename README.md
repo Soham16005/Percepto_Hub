@@ -7,7 +7,7 @@
 
 •	**Training & Real-time Classification**: The **app.py** script trains a **Multilayer Perceptron (MLP) classifier**, achieving **97.8% accuracy**. The model then classifies ASL signs in real time.
 
-The trained model is deployed using **Flask**, with a web interface designed in** HTML** and **CSS**. The web application streams real-time video, processes frames using **classify_frame()**, and predicts ASL signs dynamically. Running on 0.0.0.0:5000, it allows users to interact with the ASL recognition system over a network.
+The trained model is deployed using **Flask**, with a web interface designed in **HTML** and **CSS**. The web application streams real-time video, processes frames using **classify_frame()**, and predicts ASL signs dynamically. Running on 0.0.0.0:5000, it allows users to interact with the ASL recognition system over a network.
 
 This project seamlessly integrates **Machine Learning** and **Web Development** to create an interactive **real-time ASL recognition web app**.
 
